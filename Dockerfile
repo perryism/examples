@@ -19,4 +19,6 @@ WORKDIR /notebooks
 
 EXPOSE 8888
 
-CMD jupyter notebook --allow-root --ip=* --no-browser
+RUN jupyter serverextension enable --py jupyterlab --sys-prefix
+
+CMD jupyter lab --allow-root --ip=* --no-browser
