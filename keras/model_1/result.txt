@@ -1,0 +1,9 @@
+test
+precision 397/600 = 0.661666
+loss = 0.3516
+f1 = 0.781
+
+train
+precision 749 / 1302 = 0.57526
+loss = 0.4167
+f1 = 0.6946

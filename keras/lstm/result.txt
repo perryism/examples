@@ -1,0 +1,9 @@
+test
+precision 411/600 = 0.685
+abs mean loss = 0.2843765
+f1 0.77685
+
+train
+precision 801/1302 = 0.615
+abs mean loss 0.313276
+f1 0.70407
